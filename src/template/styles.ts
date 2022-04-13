@@ -16,7 +16,7 @@ export const WrapperContent = styled.div`
     justify-content: center;
 
     @media ${theme.mediaQueries.sm} {
-      height: auto;
+      height: 60%;
     }
   `} 
 `
