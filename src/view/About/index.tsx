@@ -14,7 +14,7 @@ const About: React.FC = () => {
   return (
     <Template>
     <S.Container>
-        <S.Image src="/assets/me.jpeg" alt="Minha foto" />
+        <S.Image src="/assets/me.jpg" alt="Minha foto" />
         <S.WrapperText>
           <Text type='underTitle'>
             {messages.aboutTitle}

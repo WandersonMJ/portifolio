@@ -1,9 +1,8 @@
-import type { NextPage } from 'next'
-
-import DashBoard from 'view/Dashboard'
+import type { NextPage } from 'next';
+import Dashboard from 'view/Dashboard';
 
 const Home: NextPage = () => {
-  return <DashBoard />
-}
+  return <Dashboard />;
+};
 
-export default Home
+export default Home;

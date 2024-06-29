@@ -13,6 +13,7 @@ declare module "styled-components" {
 
 export const themeColors = {
   black: "#212121",
+  black_2: "#1A1A1A",
   blackRaisin: "#211F20",
 
   darkBlue: "#02224b",
@@ -22,6 +23,8 @@ export const themeColors = {
   purple: "#693df8",
   yellow: "#F8F8B9",
   white: "#f2f2f2",
+  Realblack: "#000",
+  Realwhite: "#FFF"
 };
 
 const genericFontType = {

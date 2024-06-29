@@ -9,7 +9,12 @@ import Template from 'template'
 import * as S from './styles';
 
 const Curriculum: React.FC = () => {
-  const { messages } = useLanguage()
+  const { messages, language } = useLanguage()
+
+  const filePath = {
+    'pt': 'portuguese_resume.pdf',
+    'en': 'english_resume.pdf'
+  }
 
   return (
     <Template>
@@ -17,7 +22,7 @@ const Curriculum: React.FC = () => {
         <Text type="title">
           {messages.curriculum}
         </Text>
-        <a href="/assets/Curriculo_pt.pdf" download={`${messages.headers.Curriculum}-Wanderson_Marques`} target='_blank' rel="noreferrer">
+        <a href={`/assets/${filePath[language]}`} download={`${messages.headers.Curriculum}-Wanderson_Marques`} target='_blank' rel="noreferrer">
           <button type="button" className='button-27'>
             <Text type="headline1">
               Download

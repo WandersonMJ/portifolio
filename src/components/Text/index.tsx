@@ -1,5 +1,4 @@
-import { DetailedHTMLProps, HTMLAttributes } from "react";
-import { fontTypes, themeColors } from "../../styles/theme";
+import { fontTypes, themeColors } from "styles/theme";
 
 import { TextStyle } from "./styles";
 

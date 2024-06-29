@@ -14,11 +14,11 @@ export const Container = styled.div`
 
     .button-27 {
       appearance: none;
-      background-color: #000000;
-      border: 2px solid #1A1A1A;
+      background-color: ${theme.colors.Realblack};
+      border: 2px solid ${theme.colors.black_2};
       border-radius: 15px;
       box-sizing: border-box;
-      color: #FFFFFF;
+      color: ${theme.colors.Realwhite};
       cursor: pointer;
       display: inline-block;
       font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";

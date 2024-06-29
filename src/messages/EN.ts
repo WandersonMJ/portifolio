@@ -1,19 +1,24 @@
 import { IMessage } from './types';
 
 export const en: IMessage = {
-  presentationTitle: "Hi i'm Wanderson Marques",
-  presentationSubtitle: 'Front-end Developer',
-  presentationText: 'I try to learn a little about everything.',
-  // aboutTitle: 'Try. Fail. Try again.',
+  presentationTitle: "Hi, my name is Wanderson Marques",
+  presentationSubtitle: 'Full stack Developer (Front end and Back end)',
+  presentationText: 'i really love solving challenges.',
   aboutTitle: 'if(fail) tryAgain()',
-  aboutText: "I started my journey a little over 2 years ago, I'm just a beginner and I love getting into a new project and not understanding anything, because then I know I have a lot to learn.",
+  aboutText: "With 6 years of experience in full-stack engineering, I am passionate about solving difficult problems and using creativity to develop new solutions. My experience includes working with the MERN stack, which involves React.js, Node.js, MongoDB, and Express.js. I also have experience with Docker, Kubernetes, and React Native. I excel in collaborative team environments, delivering high-quality products, and adapting to changing requirements. As a mentor I promote growth and teamwork.",
   experiencesTitle: 'Career',
   experiences: [
     {
+      company: 'Cobasi',
+      role: 'Full stack Developer',
+      date: 'Dec 2022 - Jun 2024',
+      duration: '1 year and 7 months',
+    },
+    {
       company: 'Pixter technologies',
       role: 'Front-end Developer',
-      date: 'Jun 2020 - Actual',
-      duration: 'Actual',
+      date: 'Jun 2020 - Nov 2022',
+      duration: '2 years and 8 months',
     },
     {
       company: 'Sudeste Online - Specialist in chemical legislation',
@@ -32,6 +37,7 @@ export const en: IMessage = {
   headers: {
     Curriculum: 'Curriculum',
     Experiences: 'Experiences',
-    About: 'About'
+    About: 'About',
+    Skills: 'Skills'
   }
 };

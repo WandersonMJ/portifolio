@@ -10,6 +10,7 @@ export type THeaders = {
   Curriculum: string;
   Experiences: string;
   About: string;
+  Skills: string;
 }
 
 export interface IMessage {

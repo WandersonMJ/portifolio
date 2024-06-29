@@ -18,7 +18,7 @@ const Experiences: React.FC = () => {
           {messages.experiencesTitle}
         </Text>
         {messages.experiences.map((item, index) => (
-          <S.CardJob key={`${index}`}>
+          <S.CardJob key={index}>
             <Text type="underTitle">
               {item.company}
             </Text>
