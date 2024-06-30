@@ -5,12 +5,9 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    text-align: center;
     gap: 35px;
 
-    @media ${theme.mediaQueries.sm} {
-      text-align: center;
-    }
 
     .button-27 {
       appearance: none;

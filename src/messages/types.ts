@@ -16,6 +16,7 @@ export type THeaders = {
 export interface IMessage {
   presentationTitle: string;
   presentationSubtitle: string;
+  presentationLink: string;
   presentationText: string;
   aboutTitle: string;
   aboutText: string;

@@ -17,7 +17,7 @@ import {
     SiRedis
 } from "react-icons/si";
 import Skill, { SkillProps } from 'components/Skill'
-import Template from 'template'
+import ViewTemplate from 'template/viewTemplate'
 import * as S from './styles';
 
 const Skills: React.FC = () => {
@@ -91,7 +91,7 @@ const Skills: React.FC = () => {
     ]
 
     return (
-        <Template>
+        <ViewTemplate>
             <S.Container>
                 {skills.map((item, index) => (
                     <S.SkillItem key={index}>
@@ -102,7 +102,7 @@ const Skills: React.FC = () => {
                     </S.SkillItem>
                 ))}
             </S.Container>
-        </Template>
+        </ViewTemplate>
     );
 }
 

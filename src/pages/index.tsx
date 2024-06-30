@@ -1,8 +1,15 @@
+import React, { lazy } from 'react';
 import type { NextPage } from 'next';
-import Dashboard from 'view/Dashboard';
+import PageTemplate from 'template/PageTemplate';
+
+const Dashboard = lazy(() => import('view/Dashboard'));
 
 const Home: NextPage = () => {
-  return <Dashboard />;
+  return (
+    <PageTemplate>
+      <Dashboard />
+    </PageTemplate>
+  );
 };
 
 export default Home;

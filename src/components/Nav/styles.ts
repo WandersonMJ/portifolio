@@ -9,7 +9,7 @@ export const HeaderStyle = styled.div`
   justify-content: space-between;
   width: 100%;
   padding: 27px 44px;
-  position: relative; /* Adicionado para posicionamento do toast */
+  position: relative;
 
   span {
     font-weight: 600;
@@ -33,24 +33,27 @@ export const WrapLinks = styled.nav`
     }
 
     @media ${theme.mediaQueries.sm} {
-      display: none;
+      display: flex;
       flex-direction: column;
       gap: 0px;
-      width: 100%;
+      width: 200px;
+      border-left-width: 1px;
+      border-left-color: ${theme.colors.Realblack};
+      border-left-style: groove;
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 100vh;
+      background-color: ${theme.colors.black};
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in-out;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      z-index: 10;
+      padding: 42px 16px 16px;
+      gap: 12px;
 
       &.open {
-        display: flex;
-        position: absolute;
-        border-radius: 15px;
-        border: 1px solid ${theme.colors.white};
-        top: 30px;
-        right: 40px;
-        background-color: ${theme.colors.black};
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        padding: 16px;
-        width: 200px;
-        z-index: 10;
-        padding-top: 50px;
+        transform: translateX(0);
       }
     }
   `}
@@ -76,7 +79,14 @@ export const Burger = styled.div`
 `;
 
 export const WraperClose = styled.div`
-  position: absolute;
-  right: 14px;
-  top: 14px;
-`
+  ${({ theme }) => css`
+    @media ${theme.mediaQueries.smUp} {
+      display: none;
+    }
+
+    display: initial;
+    position: absolute;
+    right: 14px;
+    top: 14px;
+  `}
+`;

@@ -4,7 +4,7 @@ import Text from 'components/Text'
 
 import { useLanguage } from 'modules/language/hooks'
 
-import Template from 'template'
+import ViewTemplate from 'template/viewTemplate'
 
 import * as S from './styles';
 
@@ -12,7 +12,7 @@ const About: React.FC = () => {
   const { messages } = useLanguage()
 
   return (
-    <Template>
+    <ViewTemplate>
     <S.Container>
         <S.Image src="/assets/me.jpg" alt="Minha foto" />
         <S.WrapperText>
@@ -24,7 +24,7 @@ const About: React.FC = () => {
           </Text>
         </S.WrapperText>
     </S.Container>
-  </Template>
+  </ViewTemplate>
   );
 }
 

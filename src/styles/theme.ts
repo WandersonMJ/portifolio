@@ -137,7 +137,7 @@ const theme: DefaultTheme = {
   mediaQueries,
   colors: themeColors,
   fontFamily: "Open Sans",
-  spacing: (number) => number * 7,
+  spacing: (number) => number * 7
 };
 
 export default theme;

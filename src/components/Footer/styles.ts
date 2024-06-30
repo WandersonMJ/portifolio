@@ -14,11 +14,6 @@ export const FooterStyle = styled.div`
       height: 20px;
       color: ${theme.colors.white};
     }
-
-    @media ${theme.mediaQueries.sm} {
-      align-items: center;
-      flex-direction: column;
-    }
   `}
 `;
 
@@ -32,28 +27,27 @@ export const WrapLinks = styled.nav`
     align-items: center;
     justify-content: flex-start;
 
-    @media ${theme.mediaQueries.sm} {
-      justify-content: center;
-    }
-
     ${TextStyle} {
       display: inline;
-      margin-right: 14px;
     }
 
-    
-    width: 120px;
+    width: 80px;
     
     svg {
       display: none;
       transition: color 0.2s ease-in-out;
-
     }
     
-    &:hover {
-      svg {
-        transition: color 0.2s ease-in-out;
-        display: block;
+    @media ${theme.mediaQueries.smUp} {
+      ${TextStyle} {
+        margin-right: 14px;
+      }
+
+      &:hover {
+        svg {
+          transition: color 0.2s ease-in-out;
+          display: block;
+        }
       }
     }
   `}

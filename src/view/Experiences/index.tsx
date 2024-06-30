@@ -4,7 +4,7 @@ import Text from 'components/Text'
 
 import { useLanguage } from 'modules/language/hooks'
 
-import Template from 'template'
+import ViewTemplate from 'template/viewTemplate'
 
 import * as S from './styles';
 
@@ -12,7 +12,7 @@ const Experiences: React.FC = () => {
   const { messages } = useLanguage()
   
   return (
-    <Template>
+    <ViewTemplate>
     <S.Container>
         <Text type="title">
           {messages.experiencesTitle}
@@ -31,7 +31,7 @@ const Experiences: React.FC = () => {
           </S.CardJob>
         ))}
     </S.Container>
-  </Template>
+  </ViewTemplate>
   );
 }
 

@@ -1,38 +1,72 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Wanderson Marques Junior
 
-## Getting Started
+With 6 years of experience in full-stack engineering, I am passionate about solving difficult problems and using creativity to develop new solutions. My experience includes working with the MERN stack, which involves React.js, Node.js, MongoDB, and Express.js. I also have experience with Docker, Kubernetes, and React Native. I excel in collaborative team environments, delivering high-quality products, and adapting to changing requirements. As a mentor, I promote growth and teamwork.
 
-First, run the development server:
+## Contact
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- **Email**: wandersonmj.dev@gmail.com
+- **LinkedIn**: [linkedin.com/in/wanderson-marques-junior-3637a6186](https://www.linkedin.com/in/wanderson-marques-junior-3637a6186)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Education
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+**FATEC Itapetininga Prof. Antonio Belizandro Barbosa Rezende (2017 - 2020)**
+- Technologist in Systems Analysis and Development
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+**Federal Institute of Education, Science and Technology of São Paulo (2015 - 2017)**
+- Technician in Computer Maintenance and Support
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Work Experience
 
-## Learn More
+### Cobasi (2022 - 2024)
+**Senior Back-End Engineer**
 
-To learn more about Next.js, take a look at the following resources:
+- Developed and maintained scalable and high-performance web applications using the MERN stack.
+- Implemented RESTful APIs and integrated with various external services.
+- Identified and resolved performance bottlenecks to ensure the efficiency of applications.
+- Collaborated with multidisciplinary teams to define requirements, plan sprints, and ensure the delivery of high-quality projects.
+- Developed intelligent chatbots using Dialogflow, enhancing user interaction and automating customer service processes.
+- Created and integrated custom Alexa skills to expand user engagement through voice-controlled applications.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Technology stack**: MERN stack, Typescript, Docker, Redis, Dialogflow, AWS, and Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Pixter (2020 - 2023)
+**Mid-level Developer - MERN stack**
 
-## Deploy on Vercel
+- Progressed from Junior to Mid-level Developer, gaining extensive experience in various projects utilizing the MERN stack.
+- Assisted in the development of web applications and collaborated with senior developers to understand and implement best coding practices.
+- Took on more complex development tasks and contributed to the design and architecture of new features.
+- Integrated RESTful APIs and enhanced application functionalities.
+- Mentored junior developers and provided guidance on project tasks and coding standards.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Technology stack**: MERN stack, Typescript, and Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-=======
-# portifolio
->>>>>>> 77b236469a1dfe2b53dda8e9b2531740ee1cc526
+### Sudeste Online (2019 - 2020)
+**Intern - Web Development**
+
+- Gained hands-on experience in web development, focusing on React for frontend development and PHP for backend development.
+- Contributed to the development and maintenance of web applications, implementing features and fixing bugs.
+- Assisted in the integration of APIs and worked on improving the user interface and user experience.
+- Participated in training sessions and workshops to enhance understanding of web technologies and best practices.
+
+**Technology stack**: React.js, PHP, and Typescript.
+
+## Skills
+
+- MERN stack
+- React Native
+- MySQL
+- PostgreSQL
+- Redis
+- Systems Architecture
+- AWS
+- Azure
+- Docker
+- Kubernetes
+- GitLab CI/CD
+- Webpack
+- Git and GitFlow
+- Linux environment
+
+## Languages
+
+- English (Cambridge C1 Equivalent)

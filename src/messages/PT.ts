@@ -2,7 +2,8 @@ import { IMessage } from './types';
 
 export const pt: IMessage = {
   presentationTitle: 'Olá, me chamo Wanderson Marques',
-  presentationSubtitle: 'Desenvolvedor Full stack (Front end e Back end)',
+  presentationSubtitle: 'Desenvolvedor Full stack ( Front end e Back end )',
+  presentationLink: 'Ver habilidades',
   presentationText: 'Eu realmente amo resolver problemas.',
   aboutTitle: 'if(fail) tryAgain()',
   aboutText: 'Desenvolvedor Full-Stack com 6 anos de experiência em FrontEnd e BackEnd, especializado na stack MERN. Habilidades avançadas em React.js, Next.js, TypeScript, MongoDB, SQL, AWS, Docker, Kubernetes, GCP, Azure e Redis. Conhecimento em desenvolvimento e integração de IAs. Busco a posiçãões de desenvolvimento ou liderança.',

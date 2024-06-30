@@ -23,3 +23,15 @@ export const Container = styled.div`
     }
   `}
 `;
+
+export const TextWrapper = styled.div`
+  ${({theme}) => css`
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+
+    @media ${theme.mediaQueries.sm} {
+      flex-direction: column;
+    }
+  `}  
+`

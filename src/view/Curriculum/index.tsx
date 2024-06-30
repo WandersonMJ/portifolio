@@ -4,7 +4,7 @@ import Text from 'components/Text'
 
 import { useLanguage } from 'modules/language/hooks'
 
-import Template from 'template'
+import ViewTemplate from 'template/viewTemplate'
 
 import * as S from './styles';
 
@@ -17,7 +17,7 @@ const Curriculum: React.FC = () => {
   }
 
   return (
-    <Template>
+    <ViewTemplate>
     <S.Container>
         <Text type="title">
           {messages.curriculum}
@@ -30,7 +30,7 @@ const Curriculum: React.FC = () => {
           </button>
         </a>
     </S.Container>
-  </Template>
+  </ViewTemplate>
   );
 }
 

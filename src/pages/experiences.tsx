@@ -1,8 +1,15 @@
-import type { NextPage } from 'next'
-import ExperiencesView from 'view/Experiences'
+import React, { lazy } from 'react';
+import type { NextPage } from 'next';
+import PageTemplate from 'template/PageTemplate';
+
+const ExperiencesView = lazy(() => import('view/Experiences'));
 
 const Experiences: NextPage = () => {
-  return <ExperiencesView />
+  return (
+    <PageTemplate>
+      <ExperiencesView />
+    </PageTemplate>
+  );
 }
 
 export default Experiences

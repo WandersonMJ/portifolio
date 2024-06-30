@@ -1,8 +1,15 @@
-import type { NextPage } from 'next'
-import CurriculumView from 'view/Curriculum'
+import React, { lazy } from 'react';
+import type { NextPage } from 'next';
+import PageTemplate from 'template/PageTemplate';
+
+const CurriculumView = lazy(() => import('view/Curriculum'));
 
 const Curriculum: NextPage = () => {
-  return <CurriculumView />
+  return (
+    <PageTemplate>
+      <CurriculumView />
+    </PageTemplate>
+  );
 }
 
 export default Curriculum

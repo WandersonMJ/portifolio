@@ -10,6 +10,7 @@ export interface IProps {
   type?: keyof typeof fontTypes;
   uppercase?: boolean;
   children?: any
+  border?: boolean
 }
 
 const Text: React.FC<IProps> = ({
@@ -19,6 +20,7 @@ const Text: React.FC<IProps> = ({
   children,
   textAlign = "unset",
   uppercase,
+  border = false,
   ...rest
 }) => (
     <TextStyle
@@ -27,6 +29,7 @@ const Text: React.FC<IProps> = ({
       color={color}
       textAlign={textAlign}
       uppercase={uppercase}
+      border={border}
       {...rest}
     >
       {children}

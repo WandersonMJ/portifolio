@@ -2,8 +2,9 @@ import { IMessage } from './types';
 
 export const en: IMessage = {
   presentationTitle: "Hi, my name is Wanderson Marques",
-  presentationSubtitle: 'Full stack Developer (Front end and Back end)',
-  presentationText: 'i really love solving challenges.',
+  presentationSubtitle: 'Full stack Developer ( Front end and Back end )',
+  presentationLink: 'Check my skills',
+  presentationText: 'I really love solving challenges.',
   aboutTitle: 'if(fail) tryAgain()',
   aboutText: "With 6 years of experience in full-stack engineering, I am passionate about solving difficult problems and using creativity to develop new solutions. My experience includes working with the MERN stack, which involves React.js, Node.js, MongoDB, and Express.js. I also have experience with Docker, Kubernetes, and React Native. I excel in collaborative team environments, delivering high-quality products, and adapting to changing requirements. As a mentor I promote growth and teamwork.",
   experiencesTitle: 'Career',
